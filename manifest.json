@@ -30,7 +30,12 @@
                 "<all_urls>"
             ],
             "js": [
-                "/static/js/main.bundle.js"
+                "/static/js/main.bundle.js",
+                "/css.worker.js",
+                "/editor.worker.js",
+                "/html.worker.js",
+                "/json.worker.js",
+                "/ts.worker.js"
             ],
             "css": [
                 "/static/css/main.bundle.css"
