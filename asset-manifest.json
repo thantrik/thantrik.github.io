@@ -1,25 +1,43 @@
 {
   "files": {
-    "main.css": "/static/css/main.bundle.css",
-    "main.js": "/static/js/main.bundle.js",
+    "app.css": "/static/css/app.bundle.css",
+    "app.js": "/static/js/app.bundle.js",
+    "devTools.js": "/static/js/devTools.bundle.js",
+    "popup.js": "/static/js/popup.bundle.js",
+    "services.js": "/static/js/services.bundle.js",
+    "settings.js": "/static/js/settings.bundle.js",
     "/package.json": "//package.json",
     "css.worker.js": "/css.worker.js",
+    "devtools.html": "/devtools.html",
     "editor.worker.js": "/editor.worker.js",
     "html.worker.js": "/html.worker.js",
-    "icons/icon-128.png": "/icons/icon-128.png",
-    "icons/icon-16.png": "/icons/icon-16.png",
-    "icons/icon-32.png": "/icons/icon-32.png",
-    "icons/icon.svg": "/icons/icon.svg",
     "index.html": "/index.html",
     "json.worker.js": "/json.worker.js",
-    "static/js/main.bundle.js.LICENSE.txt": "/static/js/main.bundle.js.LICENSE.txt",
-    "static/media/codicon.css": "/static/media/codicon.a609dc0f.ttf",
-    "static/media/jsoneditor.min.css": "/static/media/jsoneditor-icons.2b9b4872.svg",
+    "popup.html": "/popup.html",
+    "settings.html": "/settings.html",
+    "static/js/app.bundle.js.LICENSE.txt": "/static/js/app.bundle.js.LICENSE.txt",
+    "static/js/popup.bundle.js.LICENSE.txt": "/static/js/popup.bundle.js.LICENSE.txt",
+    "static/media/codicon.css": "/static/media/codicon.9242107d.ttf",
+    "static/media/jsoneditor.min.css": "/static/media/jsoneditor-icons.15f2789d.svg",
     "ts.worker.js": "/ts.worker.js",
     "ts.worker.js.LICENSE.txt": "/ts.worker.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/css/main.bundle.css",
-    "static/js/main.bundle.js"
+    [
+      "static/css/app.bundle.css",
+      "static/js/app.bundle.js"
+    ],
+    [
+      "static/js/services.bundle.js"
+    ],
+    [
+      "static/js/popup.bundle.js"
+    ],
+    [
+      "static/js/settings.bundle.js"
+    ],
+    [
+      "static/js/devTools.bundle.js"
+    ]
   ]
 }
