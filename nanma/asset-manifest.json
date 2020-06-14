@@ -6,7 +6,6 @@
     "popup.js": "/static/js/popup.bundle.js",
     "services.js": "/static/js/services.bundle.js",
     "settings.js": "/static/js/settings.bundle.js",
-    "/package.json": "//package.json",
     "css.worker.js": "/css.worker.js",
     "devtools.html": "/devtools.html",
     "editor.worker.js": "/editor.worker.js",
