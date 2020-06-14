@@ -1,0 +1,20 @@
+{
+  "name": "nanma",
+  "version": "1.0.1",
+  "private": false,
+  "scripts": {
+    "start": "cd ux && cross-env GENERATE_SOURCEMAP=\"true\" node scripts/start.js",
+    "build": "cd ux && cross-env PUBLIC_URL='/' node --max-old-space-size=12000 scripts/build.js",
+    "test": "cd ux && node scripts/test.js",
+    "app:setup": "cd ux && yarn install",
+    "new:plugin": "cd ux && node plugin.js"
+  },
+  "description": "Web developer tool package",
+  "main": "index.js",
+  "repository": "https://github.com/thantrik/nanma",
+  "author": "Krishna Kumar",
+  "license": "MIT",
+  "dependencies": {
+    "gsap": "^3.3.1"
+  }
+}
