@@ -3,11 +3,13 @@
     "app.css": "/static/css/app.bundle.css",
     "app.js": "/static/js/app.bundle.js",
     "devTools.js": "/static/js/devTools.bundle.js",
+    "devToolsPage.js": "/static/js/devToolsPage.bundle.js",
     "popup.js": "/static/js/popup.bundle.js",
     "services.js": "/static/js/services.bundle.js",
     "settings.js": "/static/js/settings.bundle.js",
     "css.worker.js": "/css.worker.js",
     "devtools.html": "/devtools.html",
+    "devtools_page.html": "/devtools_page.html",
     "editor.worker.js": "/editor.worker.js",
     "html.worker.js": "/html.worker.js",
     "index.html": "/index.html",
@@ -38,6 +40,9 @@
     ],
     [
       "static/js/devTools.bundle.js"
+    ],
+    [
+      "static/js/devToolsPage.bundle.js"
     ]
   ]
 }
