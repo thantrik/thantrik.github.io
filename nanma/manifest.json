@@ -49,9 +49,7 @@
             "js": [
                 "/static/js/app.bundle.js"
             ],
-            "css": [
-                "/static/css/app.bundle.css"
-            ],
+            "css": [],
             "run_at": "document_end"
         }
     ]

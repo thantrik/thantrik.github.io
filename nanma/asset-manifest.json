@@ -1,6 +1,5 @@
 {
   "files": {
-    "app.css": "/static/css/app.bundle.css",
     "app.js": "/static/js/app.bundle.js",
     "devTools.js": "/static/js/devTools.bundle.js",
     "devToolsPage.js": "/static/js/devToolsPage.bundle.js",
@@ -19,14 +18,12 @@
     "static/js/app.bundle.js.LICENSE.txt": "/static/js/app.bundle.js.LICENSE.txt",
     "static/js/popup.bundle.js.LICENSE.txt": "/static/js/popup.bundle.js.LICENSE.txt",
     "static/media/canvas.f858813b.jpg": "/static/media/canvas.f858813b.jpg",
-    "static/media/codicon.css": "/static/media/codicon.9242107d.ttf",
-    "static/media/jsoneditor.min.css": "/static/media/jsoneditor-icons.15f2789d.svg",
+    "static/media/codicon.ttf": "/static/media/codicon.9242107d.ttf",
     "ts.worker.js": "/ts.worker.js",
     "ts.worker.js.LICENSE.txt": "/ts.worker.js.LICENSE.txt"
   },
   "entrypoints": [
     [
-      "static/css/app.bundle.css",
       "static/js/app.bundle.js"
     ],
     [
